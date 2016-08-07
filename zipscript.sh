@@ -62,7 +62,8 @@ usage () {
         cat <<EOD
 Usage:
   $THISSCRIPT zipfile addfile [addpath]
-
+This script is only for single files 
+if you want multiples in a dir you need to run each one manually
 You must use the full path for zipfile and addfile.  The addfile
 will be added into the zipfile in path addpath.  e.g.
 
